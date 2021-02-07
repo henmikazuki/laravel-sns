@@ -17,7 +17,7 @@ class ArticleController extends Controller
                 'created_at' => now(),
                 'user' => (object) [
                     'id' => 1,
-                    'name' => 'ユーザー名1'
+                    'name' => 'ユーザー名1',
                 ],
             ],
             (object) [
@@ -27,7 +27,7 @@ class ArticleController extends Controller
                 'created_at' => now(),
                 'user' => (object) [
                     'id' => 2,
-                    'name' => 'ユーザー名2'
+                    'name' => 'ユーザー名2',
                 ],
             ],
             (object) [
@@ -37,7 +37,7 @@ class ArticleController extends Controller
                 'created_at' => now(),
                 'user' => (object) [
                     'id' => 3,
-                    'name' => 'ユーザー名3'
+                    'name' => 'ユーザー名3',
                 ],
             ],
         ];
