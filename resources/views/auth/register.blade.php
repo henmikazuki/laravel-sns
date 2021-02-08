@@ -17,11 +17,11 @@
                 <div class="md-form">
                   <label for="name">ユーザー名</label>
                   <input class="form-control" type="text" id="name" name="name" required value="{{ old('name') }}">
-                  <small>英数字3～16文字(登録後の変更はできません)<small>
+                  <small>英数字3〜16文字(登録後の変更はできません)</small>
                 </div>
                 <div class="md-form">
                   <label for="email">メールアドレス</label>
-                  <input class="form-control" type="text" id="email" name="email" required value="{{ old('email') }}">
+                  <input class="form-control" type="text" id="email" name="email" required value="{{ old('email') }}" >
                 </div>
                 <div class="md-form">
                   <label for="password">パスワード</label>
