@@ -20,7 +20,7 @@ class Article extends Model
 
     public function likes(): BelongsToMany
     {
-        return $thid->belongsToMany('App\User', 'likes')->withTimestamps();
+        return $this->belongsToMany('App\User', 'likes')->withTimestamps();
     }
 
     public function isLikedBy(?User $user): bool
